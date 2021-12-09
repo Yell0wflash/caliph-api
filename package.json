@@ -1,0 +1,33 @@
+{
+  "name": "caliph-api",
+  "version": "0.1.0",
+  "description": "Simple API by Caliph",
+  "depecrated": false,
+  "main": "index.js",
+  "directories": {
+    
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "caliph-api",
+    "api
+  ],
+  "homepage": "https://github.com/caliph91/caliph-api",
+  "author": {
+    "name": "Caliph91"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caliph91/caliph-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/caliph91/caliph-api/issues"
+  },
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}

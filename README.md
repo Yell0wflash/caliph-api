@@ -70,7 +70,7 @@ console.log(result)
 # Arti Nama
 
 ```js
-( async () => {
+(async () => {
 var result = await caliph_api.artinama('Caliph')
 console.log(result)
 })()

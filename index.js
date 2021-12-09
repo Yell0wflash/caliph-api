@@ -1,1 +1,4 @@
-module.exports = "anu"
+const { version } = require('./package.json')
+
+
+module.exports = { version }

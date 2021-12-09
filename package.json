@@ -30,6 +30,8 @@
   "dependencies": {
     "axios": "^0.24.0",
    "cheerio": "^1.0.0-rc.5",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "yt-search": "^2.7.4",
+    "jsdom": "^16.5.1"
   }
 }

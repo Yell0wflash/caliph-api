@@ -84,3 +84,30 @@ console.log(result)
 }
 ```
 
+
+# Cuaca
+
+```js
+(async () => {
+var result = await caliph_api.cuaca('Sragen')
+console.log(result)
+})()
+```
+
+### Result
+```js
+{
+  status: 200,
+  data: {
+    Nama: 'Jakarta,ID',
+    Longitude: 106.8451,
+    Latitude: -6.2146,
+    Suhu: '31.08 C',
+    Angin: '5.14 m/s',
+    Kelembaban: '66%',
+    Cuaca: 'Clouds',
+    Keterangan: 'scattered clouds',
+    Udara: '1011 HPa'
+  }
+}
+```

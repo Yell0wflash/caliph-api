@@ -6,6 +6,18 @@
 const caliph_api = require('caliph-api')
 ```
 
+# Installation
+
+## Latest
+```sh
+npm i github:caliph91/caliph-api
+```
+
+## Npm 
+```sh 
+npm i caliph-api
+```
+
 
 
 # Binary

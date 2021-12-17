@@ -1,11 +1,5 @@
 # caliph-api
 
-
-# require
-```js
-const caliph_api = require('caliph-api')
-```
-
 # Installation
 
 ## Latest
@@ -13,6 +7,12 @@ const caliph_api = require('caliph-api')
 
 ## Npm 
 `npm i caliph-api`
+
+# require
+```js
+const caliph_api = require('caliph-api')
+```
+
 
 # Binary
 

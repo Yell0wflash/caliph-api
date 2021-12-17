@@ -9,12 +9,12 @@ const caliph_api = require('caliph-api')
 # Installation
 
 ## Latest
-```sh
+```js
 npm i github:caliph91/caliph-api
 ```
 
 ## Npm 
-```sh 
+```js
 npm i caliph-api
 ```
 

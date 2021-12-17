@@ -49,23 +49,16 @@ console.log(result)
 ### result
 ```js
 {
-  title: 'heat waves (Gustixa Remix)',
-  result: 'https://tinyurl.com/y4lxxzxf',
-  size: '2.8 MB',
-  thumb: 'https://i.ytimg.com/vi/nhf9fe6Atq8/maxresdefault.jpg',
-  views: '72216',
-  likes: 9053,
-  dislike: null,
-  channel: 'Gustixa',
-  uploadDate: '2021-12-15',
-  desc: 'The picture was edited by\n' +
-    'https://instagram.com/syariepfr_\n' +
-    '\n' +
-    'Gustixa\n' +
-    'https://open.spotify.com/artist/5dLfd...\n' +
-    'https://www.soundcloud.com/gustixa\n' +
-    'https://www.instagram.com/gustixa\n' +
-    'https://www.twitter.com/gustixa'
+  "title": "heat waves (Gustixa Remix)",
+  "result": "https://tinyurl.com/y36pcqnr",
+  "size": "2.8 MB",
+  "thumb": "https://i.ytimg.com/vi/nhf9fe6Atq8/maxresdefault.jpg",
+  "views": "72404",
+  "likes": 9077,
+  "dislike": null,
+  "channel": "Gustixa",
+  "uploadDate": "2021-12-15",
+  "desc": "The picture was edited by\nhttps://instagram.com/syariepfr_\n\nGustixa\nhttps://open.spotify.com/artist/5dLfd...\nhttps://www.soundcloud.com/gustixa\nhttps://www.instagram.com/gustixa\nhttps://www.twitter.com/gustixa"
 }
 ```
 
@@ -80,69 +73,17 @@ console.log(result)
 ### result
 ```js
 {
-  title: 'Rick Astley - Never Gonna Give You Up (Official Music Video)',
-  result: 'https://tinyurl.com/yxdwuuc5',
-  quality: '360p',
-  size: '15.9 MB',
-  thumb: 'https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg',
-  views: '1113732978',
-  likes: 12926498,
-  dislike: null,
-  channel: 'Rick Astley',
-  uploadDate: '2009-10-24',
-  desc: 'The official video for “Never Gonna Give You Up” by Rick Astley\n' +
-    ' \n' +
-    '“Never Gonna Give You Up” was a global smash on its release in July 1987, topping the charts in 25 countries including Rick’s native UK and the US Billboard Hot 100.  It also won the Brit Award for Best single in 1988. Stock Aitken and Waterman wrote and produced the track which was the lead-off single and lead track from Rick’s debut LP “Whenever You Need Somebody”.  The album was itself a UK number one and would go on to sell over 15 million copies worldwide.\n' +
-    '\n' +
-    'The legendary video was directed by Simon West – who later went on to make Hollywood blockbusters such as Con Air, Lara Croft – Tomb Raider and The Expendables 2.  The video passed the 1bn YouTube views milestone on 28 July 2021.\n' +
-    '\n' +
-    'Subscribe to the official Rick Astley YouTube channel: https://RickAstley.lnk.to/YTSubID\n' +
-    '\n' +
-    'Follow Rick Astley:\n' +
-    'Facebook: https://RickAstley.lnk.to/FBFollowID \n' +
-    'Twitter: https://RickAstley.lnk.to/TwitterID \n' +
-    'Instagram: https://RickAstley.lnk.to/InstagramID \n' +
-    'Website: https://RickAstley.lnk.to/storeID \n' +
-    'TikTok: https://RickAstley.lnk.to/TikTokID\n' +
-    '\n' +
-    'Listen to Rick Astley:\n' +
-    'Spotify: https://RickAstley.lnk.to/SpotifyID \n' +
-    'Apple Music: https://RickAstley.lnk.to/AppleMusicID \n' +
-    'Amazon Music: https://RickAstley.lnk.to/AmazonMusicID \n' +
-    'Deezer: https://RickAstley.lnk.to/DeezerID \n' +
-    '\n' +
-    'Lyrics:\n' +
-    'We’re no strangers to love\n' +
-    'You know the rules and so do I\n' +
-    'A full commitment’s what I’m thinking of\n' +
-    'You wouldn’t get this from any other guy\n' +
-    '\n' +
-    'I just wanna tell you how I’m feeling\n' +
-    'Gotta make you understand\n' +
-    '\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you\n' +
-    '\n' +
-    'We’ve known each other for so long\n' +
-    'Your heart’s been aching but you’re too shy to say it\n' +
-    'Inside we both know what’s been going on\n' +
-    'We know the game and we’re gonna play it\n' +
-    '\n' +
-    'And if you ask me how I’m feeling\n' +
-    'Don’t tell me you’re too blind to see\n' +
-    '\n' +
-    'Never gonna give you up\n' +
-    'Never gonna let you down\n' +
-    'Never gonna run around and desert you\n' +
-    'Never gonna make you cry\n' +
-    'Never gonna say goodbye\n' +
-    'Never gonna tell a lie and hurt you\n' +
-    '\n' +
-    '#RickAstley #NeverGonnaGiveYouUp #WheneverYouNeedSomebody #OfficialMusicVideo'
+  "title": "Rick Astley - Never Gonna Give You Up (Official Music Video)",
+  "result": "https://tinyurl.com/yyc4fjv8",
+  "quality": "360p",
+  "size": "15.9 MB",
+  "thumb": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+  "views": "1113735218",
+  "likes": 12926541,
+  "dislike": null,
+  "channel": "Rick Astley",
+  "uploadDate": "2009-10-24",
+  "desc": "The official video for “Never Gonna Give You Up” by Rick Astley\n \n“Never Gonna Give You Up” was a global smash on its release in July 1987, topping the charts in 25 countries including Rick’s native UK and the US Billboard Hot 100.  It also won the Brit Award for Best single in 1988. Stock Aitken and Waterman wrote and produced the track which was the lead-off single and lead track from Rick’s debut LP “Whenever You Need Somebody”.  The album was itself a UK number one and would go on to sell over 15 million copies worldwide.\n\nThe legendary video was directed by Simon West – who later went on to make Hollywood blockbusters such as Con Air, Lara Croft – Tomb Raider and The Expendables 2.  The video passed the 1bn YouTube views milestone on 28 July 2021.\n\nSubscribe to the official Rick Astley YouTube channel: https://RickAstley.lnk.to/YTSubID\n\nFollow Rick Astley:\nFacebook: https://RickAstley.lnk.to/FBFollowID \nTwitter: https://RickAstley.lnk.to/TwitterID \nInstagram: https://RickAstley.lnk.to/InstagramID \nWebsite: https://RickAstley.lnk.to/storeID \nTikTok: https://RickAstley.lnk.to/TikTokID\n\nListen to Rick Astley:\nSpotify: https://RickAstley.lnk.to/SpotifyID \nApple Music: https://RickAstley.lnk.to/AppleMusicID \nAmazon Music: https://RickAstley.lnk.to/AmazonMusicID \nDeezer: https://RickAstley.lnk.to/DeezerID \n\nLyrics:\nWe’re no strangers to love\nYou know the rules and so do I\nA full commitment’s what I’m thinking of\nYou wouldn’t get this from any other guy\n\nI just wanna tell you how I’m feeling\nGotta make you understand\n\nNever gonna give you up\nNever gonna let you down\nNever gonna run around and desert you\nNever gonna make you cry\nNever gonna say goodbye\nNever gonna tell a lie and hurt you\n\nWe’ve known each other for so long\nYour heart’s been aching but you’re too shy to say it\nInside we both know what’s been going on\nWe know the game and we’re gonna play it\n\nAnd if you ask me how I’m feeling\nDon’t tell me you’re too blind to see\n\nNever gonna give you up\nNever gonna let you down\nNever gonna run around and desert you\nNever gonna make you cry\nNever gonna say goodbye\nNever gonna tell a lie and hurt you\n\n#RickAstley #NeverGonnaGiveYouUp #WheneverYouNeedSomebody #OfficialMusicVideo"
 }
 ```
 
@@ -206,7 +147,7 @@ console.log(result)
 
 ```js
 (async () => {
-var result = await caliph_api.cuaca('Sragen')
+var result = await caliph_api.cuaca('Jakarta')
 console.log(result)
 })()
 ```
@@ -214,17 +155,17 @@ console.log(result)
 ### Result
 ```js
 {
-  status: 200,
-  data: {
-    Nama: 'Jakarta,ID',
-    Longitude: 106.8451,
-    Latitude: -6.2146,
-    Suhu: '31.08 C',
-    Angin: '5.14 m/s',
-    Kelembaban: '66%',
-    Cuaca: 'Clouds',
-    Keterangan: 'scattered clouds',
-    Udara: '1011 HPa'
-  }
+    "status": 200,
+    "data": {
+        "Nama": "Jakarta,ID",
+        "Longitude": 106.8451,
+        "Latitude": -6.2146,
+        "Suhu": "31.08 C",
+        "Angin": "5.14 m\/s",
+        "Kelembaban": "66%",
+        "Cuaca": "Clouds",
+        "Keterangan": "scattered clouds",
+        "Udara": "1011 HPa"
+    }
 }
 ```

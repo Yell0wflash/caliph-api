@@ -4,5 +4,6 @@ const iplookup = require('./lib/iplook')
 const artinama = require('./lib/artinama')
 const stress = require('./lib/stress')
 const cuaca = require('./lib/cuaca')
+const youtube = require("./lib/youtube")
 
-module.exports = { version, author: author.name, binary, iplookup, artinama, stress, cuaca }
+module.exports = { version, author: author.name, binary, iplookup, artinama, stress, cuaca, downloader: { youtube } }

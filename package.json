@@ -33,6 +33,6 @@
     "node-fetch": "^2.6.1",
     "yt-search": "^2.7.4",
     "ytdl-core": "^4.9.1",
-    "jsdom": "^16.5.1"
+    "fs": "^0.0.1-security"
   }
 }

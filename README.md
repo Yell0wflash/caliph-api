@@ -143,6 +143,17 @@ console.log(result)
 ```
 
 
+# Fake User-Agent
+`Get Random User-agent`
+```js
+var result = caliph_api.fakeua()
+console.log(result)
+```
+
+### Result
+`magpie-crawler/1.1 (U; Linux amd64; en-GB; +http://www.brandwatch.net)`
+
+
 # Cuaca
 
 ```js

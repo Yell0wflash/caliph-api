@@ -145,6 +145,39 @@ console.log(result);
   "query": "1.1.1.1"
 }
 ```
+# ig stalk 
+```js
+(async () => {
+var result = await caliph_api.igstalk('caliph91_');
+console.log(result)
+})()
+```
+
+### result
+```js
+{
+  "status": 200,
+  "profile": {
+    "low": "https://tinyurl.com/yb6nsvgj",
+    "high": "https://tinyurl.com/ycqt3ern"
+  },
+  "result": {
+    "url": "https://caliph.my.id/",
+    "fullname": "I`am Caliph",
+    "private": false,
+    "verified": false,
+    "bio": "Just for fun\nFollback? Dm me",
+    "follower": 516,
+    "following": 100,
+    "conneted_fb": null,
+    "videotimeline": 0,
+    "timeline": 2,
+    "savedmedia": 3,
+    "collections": 0
+  }
+}
+```
+
 
 # Arti Nama
 

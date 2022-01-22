@@ -18,8 +18,8 @@ const caliph_api = require('caliph-api')
 
 ## Encrypt
 ```js
-var result = caliph_api.binary.enc('hello world')
-console.log(result)
+var result = caliph_api.binary.enc('hello world');
+console.log(result);
 ```
 ### Result 
 ```1101000 1100101 1101100 1101100 1101111 100000 1110111 1101111 1110010 1101100 1100100```
@@ -27,8 +27,8 @@ console.log(result)
 
 ## Decrypt 
 ```js
-var result = caliph_api.binary.dec('1101000 1100101 1101100 1101100 1101111 100000 1110111 1101111 1110010 1101100 1100100')
-console.log(result)
+var result = caliph_api.binary.dec('1101000 1100101 1101100 1101100 1101111 100000 1110111 1101111 1110010 1101100 1100100');
+console.log(result);
 ```
 
 ### result 
@@ -39,7 +39,8 @@ console.log(result)
 ## TikTok
 ```js
 (async () => {
-var result = await caliph_api.downloader.tiktok('https://vt.tiktok.com/ZSe4Evewq/')
+var result = await caliph_api.downloader.tiktok('https://vt.tiktok.com/ZSe4Evewq/');
+console.log(result);
 })()
 ```
 
@@ -61,8 +62,8 @@ var result = await caliph_api.downloader.tiktok('https://vt.tiktok.com/ZSe4Evewq
 ### Yt Play
 ```js
 (async () => {
-var result = await caliph_api.downloader.youtube.ytplay('gustixa')
-console.log(result)
+var result = await caliph_api.downloader.youtube.ytplay('gustixa');
+console.log(result);
 })()
 ```
 
@@ -85,8 +86,8 @@ console.log(result)
 ### Yt Play Vid
 ```js
 (async () => {
-var result = caliph_api.downloader.youtube.ytplayvid('never gonna give you up')
-console.log(result)
+var result = caliph_api.downloader.youtube.ytplayvid('never gonna give you up');
+console.log(result);
 })()
 ```
 
@@ -111,8 +112,8 @@ console.log(result)
 # Ip Lookup
 ```js
 (async () => {
-var result = await caliph_api.iplookup('1.1.1.1')
-console.log(result)
+var result = await caliph_api.iplookup('1.1.1.1');
+console.log(result);
 })()
 ```
 ### result
@@ -149,8 +150,8 @@ console.log(result)
 
 ```js
 (async () => {
-var result = await caliph_api.artinama('Caliph')
-console.log(result)
+var result = await caliph_api.artinama('Caliph');
+console.log(result);
 })()
 ```
 
@@ -166,8 +167,8 @@ console.log(result)
 # Fake User-Agent
 `Get Random User-agent`
 ```js
-var result = caliph_api.fakeua()
-console.log(result)
+var result = caliph_api.fakeua();
+console.log(result);
 ```
 
 ### Result
@@ -178,8 +179,8 @@ console.log(result)
 
 ```js
 (async () => {
-var result = await caliph_api.cuaca('Jakarta')
-console.log(result)
+var result = await caliph_api.cuaca('Jakarta');
+console.log(result);
 })()
 ```
 

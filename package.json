@@ -37,7 +37,7 @@
     "node-fetch": "^2.6.1",
     "yt-search": "^2.7.4",
     "ytdl-core": "^4.9.1",
-    "instatouch": "^2.3.14',
+    "instatouch": "^2.3.14",
     "fs": "^0.0.1-security"
   }
 }

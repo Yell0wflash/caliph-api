@@ -36,6 +36,26 @@ console.log(result)
 
 # Downloader
 
+## TikTok
+```js
+(async () => {
+var result = await caliph_api.downloader.tiktok('https://vt.tiktok.com/ZSe4Evewq/')
+})()
+```
+
+### result
+```js
+{
+  "title": "kok diulang ulang\" bro🗿📸#ANlofi #ElvinzEZ #muridlofi #gemsergemser #xybca #fypシ",
+  "author": "@luckyx_ez LuckyEz",
+  "nowm": "https://clph.pw/5vH4",
+  "watermark": "https://clph.pw/Nta7",
+  "audio": "https://clph.pw/7YyS",
+  "thumbnail": "https://clph.pw/Dr37"
+}
+```
+
+
 ## YouTube
 
 ### Yt Play
@@ -51,7 +71,7 @@ console.log(result)
 {
   "title": "heat waves (Gustixa Remix)",
   "result": "https://tinyurl.com/y36pcqnr",
-  "size": "2.8 MB",
+  "size": "2.8 MB", 
   "thumb": "https://i.ytimg.com/vi/nhf9fe6Atq8/maxresdefault.jpg",
   "views": "72404",
   "likes": 9077,

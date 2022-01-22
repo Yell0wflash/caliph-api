@@ -6,5 +6,6 @@ const stress = require('./lib/stress')
 const cuaca = require('./lib/cuaca')
 const youtube = require("./lib/youtube")
 const fakeua = require("./lib/fakeua")
+const tiktok = require('./lib/tiktok')
 
-module.exports = { version, author: author.name, binary, iplookup, artinama, stress, cuaca, downloader: { youtube }, fakeua }
+module.exports = { version, author: author.name, binary, iplookup, artinama, stress, cuaca, downloader: { youtube, tiktok }, fakeua }

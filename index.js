@@ -11,4 +11,4 @@ const igstalk = require('./lib/igstalk')
 const carigrup = require("./lib/grupwa")
 const kusonime = require("./lib/kusonime")
 
-module.exports = { version, author: author.name, binary, iplookup, artinama, stress, cuaca, downloader: { youtube, tiktok }, fakeua, igstalk, carigrup }
+module.exports = { version, author: author.name, binary, iplookup, artinama, stress, cuaca, downloader: { youtube, tiktok }, fakeua, igstalk, carigrup, kusonime }

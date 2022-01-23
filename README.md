@@ -12,6 +12,68 @@
 ```js
 const caliph_api = require('caliph-api')
 ```
+
+
+# Kusonime Search
+```js
+(async () => {
+var result = await caliph_api.kusonime('eromanga sensei')
+console.log(result)
+})
+```
+
+### Result
+```js
+{
+  "status": 200,
+  "creator": "Caliph",
+  "result": {
+    "judul": "Eromanga-sensei BD Batch Subtitle Indonesia",
+    "thumb": "https://kusonime.com/wp-content/uploads/2017/06/Eromanga-sensei-604x340.jpg",
+    "desk": "Eromanga-sensei bercerita tentang Masamune Izumi seorang siswa SMA biasa yang juga merupakan penulis LN (Light Novel) yang sedang berkembang . Dan beberapa tahun yang lalu Sang Ayah yang duda menikahi seorang Janda satu anak dan karena itu diri nya mempunyai seorang Adek Tiri bernama Sagiri .",
+    "genre": "Comedy, Drama, Romance",
+    "status": "Completed",
+    "produser": "Aniplex, Movic, ASCII Media Works, BS11, Kinoshita Group Holdings",
+    "rate": "7.18",
+    "type": "BD",
+    "link": "https://kusonime.com/eromanga-batch-sub-indonesia/",
+    "total_eps": "12+2 OVA",
+    "durasi": "24 min. per ep.",
+    "tgl_rilis": "Apr 09, 2017",
+    "result": {
+      "360": [
+        "https://acefile.co/f/9926049/kusonime-tidak-mungkin-adekku-semesum-ini-ova-bedeh-480p-rar",
+        "https://drive.google.com/uc?export=download&id=1HxO0NU4G6nOxuWzPQLyib5zM61Pbu8dd",
+        "https://drive.google.com/uc?export=download&id=1HT-PKFEqeAp73bz37ONGj8I9yV0aSo7I",
+        "https://mega.nz/#!8U0VFAqI!6kDBnGgohF31Hb0WhvSbBnWkjqHhDQTOC936EJ2QqHA",
+        "https://uptobox.com/k2cqpfzljohd",
+        "https://mirrorace.com/m/2awrz",
+        "https://acefile.co/f/9926115/kusonime-tidak-mungkin-adekku-semesum-ini-ova-bedeh-720p-rar",
+        "https://drive.google.com/uc?export=download&id=1U_kFrS28W99_-PuY7nYULzU52JXSSLuO",
+        "https://drive.google.com/uc?export=download&id=12lg3e_BbBsPi5Avexi1BFwk1TX2h8t32",
+        "https://mega.nz/#!Mc1XyaZR!v8nk_y14MyCuxAqDThuvqF8B1VE_sO4kAUQKehuDlp8",
+        "https://uptobox.com/t1fqibtn9p8q",
+        "https://mirrorace.com/m/2QtTW"
+      ],
+      "480": [
+        "https://acefile.co/f/9926115/kusonime-tidak-mungkin-adekku-semesum-ini-ova-bedeh-720p-rar",
+        "https://drive.google.com/uc?export=download&id=1U_kFrS28W99_-PuY7nYULzU52JXSSLuO",
+        "https://drive.google.com/uc?export=download&id=12lg3e_BbBsPi5Avexi1BFwk1TX2h8t32",
+        "https://mega.nz/#!Mc1XyaZR!v8nk_y14MyCuxAqDThuvqF8B1VE_sO4kAUQKehuDlp8",
+        "https://uptobox.com/t1fqibtn9p8q",
+        "https://mirrorace.com/m/2QtTW"
+      ],
+      "720": [
+        ""
+      ],
+      "1080": [
+        ""
+      ]
+    }
+  }
+}
+```
+
 # Cari Grup Wa
 ```js
 (async () => {

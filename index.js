@@ -9,5 +9,6 @@ const fakeua = require("./lib/fakeua")
 const tiktok = require('./lib/tiktok')
 const igstalk = require('./lib/igstalk')
 const carigrup = require("./lib/grupwa")
+const kusonime = require("./lib/kusonime")
 
 module.exports = { version, author: author.name, binary, iplookup, artinama, stress, cuaca, downloader: { youtube, tiktok }, fakeua, igstalk, carigrup }

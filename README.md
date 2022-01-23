@@ -12,7 +12,119 @@
 ```js
 const caliph_api = require('caliph-api')
 ```
+# Cari Grup Wa
+```js
+(async () => {
+var result = await caliph_api.carigrup('anime')
+console.log(result)
+})()
+```
 
+### Result
+```js
+{
+  "status": 200,
+  "creator": "Caliph",
+  "result": [
+    {
+      "nama": ".*",
+      "link": "https://chat.whatsapp.com/GPdo2vPf5aa08D3GEh8TMr"
+    },
+    {
+      "nama": "~OPPAI~*",
+      "link": "https://chat.whatsapp.com/J2Qi9XAT7MmJmhCjLjx0dZ"
+    },
+    {
+      "nama": "★アキバZERO [Line,Telegram,FB,Discord]*",
+      "link": "https://chat.whatsapp.com/JuliA3ioe0eKZLbtRTvaDb"
+    },
+    {
+      "nama": "✎ᴼᵗᵃᵏᵘ ⁱˢ ᵐʸ ˡⁱᶠᵉ♪♪♪..*",
+      "link": "https://chat.whatsapp.com/Jbggip4YL24DVZ8UYqsGE3"
+    },
+    {
+      "nama": "〰️ANIME& GAMERS〰️*",
+      "link": "https://chat.whatsapp.com/HAE4Sk2Dr3oAzNV8uD8s3k"
+    },
+    {
+      "nama": "🇷🇺Лравда/Pravda🇯🇵*",
+      "link": "https://chat.whatsapp.com/KfMCmNMVMzjAcwqp0XBT2c"
+    },
+    {
+      "nama": "anime*",
+      "link": "https://chat.whatsapp.com/6DtEEOOA6cT43gsew90Wcm"
+    },
+    {
+      "nama": "Anime*",
+      "link": "https://chat.whatsapp.com/LktAhJPl6cUEffFXQkgt16"
+    },
+    {
+      "nama": "Anime Couple*",
+      "link": "https://chat.whatsapp.com/FJtYaLdI9oa8BOUgr4sIjk"
+    },
+    {
+      "nama": "Anime For Indonesia*",
+      "link": "https://chat.whatsapp.com/As2QkHxhqANKORK6K64dwH"
+    },
+    {
+      "nama": "Anime L❤️vers Indonesia😚*",
+      "link": "https://chat.whatsapp.com/Fn2vm7UnnG3CLOdOvyzWUq"
+    },
+    {
+      "nama": "Anime lovers ID*",
+      "link": "https://chat.whatsapp.com/Dw6GJAhZcgW5Cvh4ySthSu"
+    },
+    {
+      "nama": "Anime lovers:v🇲🇨*",
+      "link": "https://chat.whatsapp.com/IET5JbrZOkZ5A3ZHKFWbSn"
+    },
+    {
+      "nama": "Anime Lovers⚡*",
+      "link": "https://chat.whatsapp.com/C2dHfIvn95tAvdLdkMdo11"
+    },
+    {
+      "nama": "🇯🇵Anime Lovers🇲🇨*",
+      "link": "https://chat.whatsapp.com/FvmoLbfH1MqH6Dq0DOPCAs"
+    },
+    {
+      "nama": "Anime lovress*",
+      "link": "https://chat.whatsapp.com/55LcWVTJBJU3FTj2A8uwis"
+    },
+    {
+      "nama": "Anime Otaku Indonesia*",
+      "link": "https://chat.whatsapp.com/EC62mQ665yU3Y30dAToYSr"
+    },
+    {
+      "nama": "_..Anime wibu.._–*",
+      "link": "https://chat.whatsapp.com/BrtyrNpsw3rBfpJ2MFJffs"
+    },
+    {
+      "nama": "Animee📽💻*",
+      "link": "https://chat.whatsapp.com/JvDXDJKFpTADJzVS89FsWp"
+    },
+    {
+      "nama": "Animelovers*",
+      "link": "https://chat.whatsapp.com/D7ttM85AXsBKIbHDH9AfXN"
+    },
+    {
+      "nama": "BLINKs Global FanClub🇰🇷*",
+      "link": "https://chat.whatsapp.com/JlEgCtyK8xUJMSDIVwZB2e"
+    },
+    {
+      "nama": "Dakwah islami*",
+      "link": "https://chat.whatsapp.com/CKjHD5QQSkYJJD8kfelvT9"
+    },
+    {
+      "nama": "Do do do sol la la sol*",
+      "link": "https://chat.whatsapp.com/0PdBqRveEGj1c4cTgV2itI"
+    },
+    {
+      "nama": "EDITOR•BERKELAS😎*",
+      "link": "https://chat.whatsapp.com/CJX91Rirhp7Cd5P6038eSZ"
+    }
+  ]
+}
+```
 
 # Binary
 

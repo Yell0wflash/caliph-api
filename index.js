@@ -10,4 +10,4 @@ const tiktok = require('./lib/tiktok')
 const igstalk = require('./lib/igstalk')
 const carigrup = require("./lib/grupwa")
 
-module.exports = { version, author: author.name, binary, iplookup, artinama, stress, cuaca, downloader: { youtube, tiktok }, fakeua, igstalk }
+module.exports = { version, author: author.name, binary, iplookup, artinama, stress, cuaca, downloader: { youtube, tiktok }, fakeua, igstalk, carigrup }

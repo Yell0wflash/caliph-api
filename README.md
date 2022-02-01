@@ -13,13 +13,26 @@
 const caliph_api = require('caliph-api')
 ```
 
+# Emoji Mix
+```js
+(async () => {
+var result = await caliph_api.emojimix("😭", "🥺")
+console.log(result)
+})()
+```
+
+### Result
+`Buffer`
+<img src="https://telegra.ph/file/fa9a20e2de68ec5bfdfc3.png" weight="20" height="20">
+
+
 
 # Kusonime Search
 ```js
 (async () => {
 var result = await caliph_api.kusonime('eromanga sensei')
 console.log(result)
-})
+})()
 ```
 
 ### Result

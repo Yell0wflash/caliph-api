@@ -10,7 +10,7 @@ const tiktok = require('./lib/tiktok');
 const igstalk = require('./lib/igstalk');
 const carigrup = require("./lib/grupwa");
 const kusonime = require("./lib/kusonime");
-const emojimix = require("../lib/emojimix");
+const emojimix = require("./lib/emojimix");
 
 
 module.exports = { version, 

@@ -23,7 +23,9 @@ console.log(result)
 
 ### Result
 `Buffer`
-<br><img src="https://telegra.ph/file/fa9a20e2de68ec5bfdfc3.png" weight="30" height="30">
+<p align="left">
+<img src="https://telegra.ph/file/fa9a20e2de68ec5bfdfc3.png" weight="50" height="50">
+</p>
 
 
 

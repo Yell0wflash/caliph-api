@@ -11,6 +11,8 @@ const igstalk = require('./lib/igstalk');
 const carigrup = require("./lib/grupwa");
 const kusonime = require("./lib/kusonime");
 const emojimix = require("./lib/emojimix");
+const translate = require("./lib/translate");
+const rangkum = require("./lib/rangkum");
 
 
 module.exports = { version, 
@@ -28,5 +30,7 @@ module.exports = { version,
                    igstalk, 
                    carigrup, 
                    kusonime, 
-                   emojimix  
+                   emojimix,
+                   translate,
+                   rangkum
                    }

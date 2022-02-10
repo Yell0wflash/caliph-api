@@ -1,6 +1,6 @@
 {
   "name": "caliph-api",
-  "version": "0.4.2",
+  "version": "0.4.5",
   "description": "Simple API by Caliph",
   "depecrated": false,
   "main": "index.js",
@@ -21,7 +21,8 @@
   ],
   "homepage": "https://caliphapi.com",
   "author": {
-    "name": "Caliph91"
+    "name": "Caliph91",
+    "email": "admin@caliph.my.id"
   },
   "repository": {
     "type": "git",

@@ -246,6 +246,30 @@ console.log(result);
 ```
 
 
+## TikTok 2
+```js
+(async () => {
+var result = await caliph_api.downloader.tiktok2('https://vt.tiktok.com/ZSe4Evewq/');
+console.log(result);
+})()
+```
+
+### result
+```js
+{
+  creator: 'Caliph',
+  video_title: 'Check out anichal88’s video! #TikTok >',
+  audio_title: 'still with you',
+  video: 'http://clph.pw/DzsY',
+  audio_original: 'http://clph.pw/JnxT',
+  nowm: 'http://clph.pw/CTtT',
+  video_original: 'http://clph.pw/ughD',
+  audio: 'http://clph.pw/2j6H',
+  preview: 'http://clph.pw/hODe'
+}
+```
+
+
 ## YouTube
 
 ### Yt Play

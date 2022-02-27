@@ -7,6 +7,7 @@ const cuaca = require('./lib/cuaca');
 const youtube = require("./lib/youtube");
 const fakeua = require("./lib/fakeua");
 const tiktok2 = require('./lib/tiktok2');
+const tiktok = require('./lib/tiktok2');
 const igstalk = require('./lib/igstalk');
 const carigrup = require("./lib/grupwa");
 const kusonime = require("./lib/kusonime");

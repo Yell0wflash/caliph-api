@@ -1,6 +1,6 @@
 {
   "name": "caliph-api",
-  "version": "0.5.7",
+  "version": "0.6.0",
   "description": "Simple API by Caliph",
   "depecrated": false,
   "main": "index.js",

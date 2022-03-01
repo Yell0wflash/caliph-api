@@ -20,10 +20,10 @@ const rangkum = require("./lib/rangkum");
 module.exports = { info : { 
                   version, 
                    author: author
-                  }
+                  },
                   encrypt: {
                    binary
-                   }
+                   },
                    stress, 
                    downloader: { 
                    youtube, 

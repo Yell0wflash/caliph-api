@@ -10,29 +10,42 @@ const tiktok2 = require('./lib/tiktok2');
 const tiktok = require('./lib/tiktok2');
 const igstalk = require('./lib/igstalk');
 const carigrup = require("./lib/grupwa");
+const happymod = require("./lib/happymod");
 const kusonime = require("./lib/kusonime");
 const emojimix = require("./lib/emojimix");
 const translate = require("./lib/translate");
 const rangkum = require("./lib/rangkum");
 
 
-module.exports = { version, 
-                   author: author.name, 
-                   binary, 
-                   iplookup, 
-                   artinama, 
+module.exports = { info : { 
+                  version, 
+                   author: author
+                  }
+                  encrypt: {
+                   binary
+                   }
                    stress, 
-                   cuaca, 
                    downloader: { 
                    youtube, 
                    tiktok,
                   tiktok2
                    }, 
-                   fakeua, 
-                   igstalk, 
-                   carigrup, 
-                   kusonime, 
+                  search : {
+                  happymod,
+                  carigup,
+                  kusonime,
+                 iplookup,
+                  cuaca,
+                  artinama,
+                  igstalk,
+                  cuaca
+                  },
+                  random: {
+                   fakeua
+                   },
+                  other: {
                    emojimix,
                    translate,
                    rangkum
+                  }
                    }

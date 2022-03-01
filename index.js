@@ -32,7 +32,7 @@ module.exports = { info : {
                    }, 
                   search : {
                   happymod,
-                  carigup,
+                  carigrup,
                   kusonime,
                  iplookup,
                   cuaca,

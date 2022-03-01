@@ -27,6 +27,223 @@ console.log(result)
 <img src="https://telegra.ph/file/fa9a20e2de68ec5bfdfc3.png" weight="50" height="50">
 </p>
 
+# Happymod
+```js
+(async () => {
+var result = await caliph_api.search.happymod("pubg")
+console.log(result)
+})()
+```
+
+### Result
+```js
+{
+  status: 200,
+  creator: 'Caliph',
+  result: [
+    {
+      title: 'PUBG MOBILE: Aftermath Mod Apk 1.5.0 [Unlimited money] ',
+      link: 'https://happymod.com/pubg-mobile-apk-mod/com.tencent.ig/',
+      thumb: 'https://i.git99.com/app_img/20210629/66/48/82/1624950173.jpg'
+    },
+    {
+      title: 'PUBG: NEW STATE Mod Apk 0.9.16.125 [Unlimited money] ',
+      link: 'https://happymod.com/pubg-new-state-mod/com.pubg.newstate/',
+      thumb: 'https://i.git99.com/app_img/20211116/37/10/99/1636993277.jpg'
+    },
+    {
+      title: 'PUBG MOBILE LITE Mod Apk 0.21.0  ',
+      link: 'https://happymod.com/pubg-mobile-lite-mod/com.tencent.iglite/',
+      thumb: 'https://i.git99.com/app_img/20210630/94/16/75/1625044894.jpg'
+    },
+    {
+      title: 'GFX Tool for PUBG Mod Apk 10.1.0  ',
+      link: 'https://happymod.com/gfx-tool-no-ban-no-lag-mod/eu.tsoml.graphicssettings/',
+      thumb: 'https://i.git99.com/app_img/20220122/91/21/93/1642833294.jpg'
+    },
+    {
+      title: 'PUBG Mobile Mod Apk 1.1.0 [Unlimited money] ',
+      link: 'https://happymod.com/pubg-mobile-mod/com.pubg.krmobile/',
+      thumb: 'https://i.git99.com/app_img/20220117/36/28/15/1642402939.jpg'
+    },
+    {
+      title: 'Knives Out Mod Apk 1.271.479300  ',
+      link: 'https://happymod.com/knives-out-no-rules-just-fight-mod/com.netease.ko/',
+      thumb: 'https://i.git99.com/app_img/20210817/43/99/20/1629209344.jpg'
+    },
+    {
+      title: 'PUBG Mobile VN ',
+      link: 'https://happymod.com/pubg-mobile-vn-2getherweplay-mod/com.vng.pubgmobile/',
+      thumb: 'https://i.git99.com/app_img/20210630/68/28/40/1625047919.jpg'
+    },
+    {
+      title: 'Battlegrounds Mobile India ',
+      link: 'https://happymod.com/battlegrounds-mobile-india-mod/com.pubg.imobile/',
+      thumb: 'https://i.git99.com/app_img/20210718/12/89/84/1626609053.jpg'
+    },
+    {
+      title: 'Call of Duty Mobile Season 2 ',
+      link: 'https://happymod.com/call-of-duty-legends-of-war-mod/com.activision.callofduty.shooter/',
+      thumb: 'https://i.git99.com/app_img/20211116/31/17/69/1637066284.jpg'
+    },
+    {
+      title: 'Grand Battle Royale: Pixel FPS Mod Apk 3.5.1  ',
+      link: 'https://happymod.com/grand-battle-royale-mod/com.onetongames.kingofthehill/',
+      thumb: 'https://i.git99.com/app_img/20210709/66/85/72/1625845927.jpg'
+    },
+    {
+      title: "PIXEL'S UNKNOWN BATTLE GROUND Mod Apk 1.53.00 [Unlimited money][Free purchase][Unlocked] ",
+      link: 'https://happymod.com/battleground-royale-unreleased-mod/com.azurgames.BattleGroundRoyale/',
+      thumb: 'https://i.git99.com/app_img/20211027/12/1/23/1635331063.jpg'
+    },
+    {
+      title: 'Arena of Valor Mod Apk 1.41.1.10  ',
+      link: 'https://happymod.com/realm-of-valor-beta-mod/com.ngame.allstar.eu/',
+      thumb: 'https://i.git99.com/app_img/20220110/84/25/54/1641799256.jpg'
+    },
+    {
+      title: 'Modern Strike Online: PvP FPS Mod Apk 1.49.0 [Endless] ',
+      link: 'https://happymod.com/modern-strike-online-mod/com.gamedevltd.modernstrike/',
+      thumb: 'https://i.git99.com/app_img/20210702/82/78/65/1625197521.jpg'
+    },
+    {
+      title: 'Twitch: Live Game Streaming Mod Apk 12.1.2 [Remove ads] ',
+      link: 'https://happymod.com/twitch-mod/tv.twitch.android.app/',
+      thumb: 'https://i.git99.com/app_img/20210709/9/56/40/1625788355.jpg'
+    },
+    {
+      title: 'Garena Free Fire MAX ',
+      link: 'https://happymod.com/garena-free-fire-max-mod/com.dts.freefiremax/',
+      thumb: 'https://i.git99.com/app_img/20220119/16/74/66/1642595754.jpg'
+    },
+    {
+      title: '1v1.LOL - Third Person Shooter Mod Apk 4.17  ',
+      link: 'https://happymod.com/1v1-lol-online-building-shooting-simulator-app-mod/lol.onevone/',
+      thumb: 'https://i.git99.com/app_img/20220207/20/63/8/1644217813.jpg'
+    },
+    {
+      title: 'Tap Booster - Gaming VPN ',
+      link: 'https://happymod.com/tap-booster-gaming-vpn-mod/com.xindong.rocket.gp.new/',
+      thumb: 'https://i.git99.com/app_img/20211202/56/63/18/1638446647.jpg'
+    },
+    {
+      title: 'Creative Destruction Advance ',
+      link: 'https://happymod.com/creative-destruction-advance-mod/com.titan.cda.gb/',
+      thumb: 'https://i.git99.com/app_img/20210702/85/62/59/1625197536.jpg'
+    },
+    {
+      title: 'Modern Combat 5: mobile FPS Mod Apk 5.8.7  ',
+      link: 'https://happymod.com/modern-combat-5-esports-fps-mod/com.gameloft.android.ANMP.GloftM5HM/',
+      thumb: 'https://i.git99.com/app_img/20210710/95/38/82/1625887860.jpg'
+    },
+    {
+      title: 'Name creator for pubg ',
+      link: 'https://happymod.com/name-creator-for-pubg-mod/com.moonlandtech.pubgrenametool/',
+      thumb: 'https://i.git99.com/app_img/20220126/1/26/65/1643135849.jpg'
+    },
+    {
+      title: 'GFX Tool PUBG Pro (Advance FPS Settings + No Ban) ',
+      link: 'https://happymod.com/gfx-tool-pubg-pro-advance-fps-settings-no-ban-mod/sintum.gfxtools.pubgpro/',
+      thumb: 'https://i.git99.com/app_img/20211209/3/15/46/1638980060.jpg'
+    },
+    {
+      title: 'Crate Simulator for PUBGM Mod Apk 1.0.30  ',
+      link: 'https://happymod.com/crate-simulator-for-pubgm-mod/me.theoneint.pubgcrate/',
+      thumb: 'https://i.git99.com/app_img/20211207/79/49/83/1638835020.jpg'
+    },
+    {
+      title: 'Cyber Hunter Mod Apk 0.100.48  ',
+      link: 'https://happymod.com/project-battle-mod/com.netease.lztgglobal/',
+      thumb: 'https://i.git99.com/app_img/20210710/51/14/53/1625849034.jpg'
+    },
+    {
+      title: 'Badlanders ',
+      link: 'https://happymod.com/badlanders-mod/com.netease.sheltergp/',
+      thumb: 'https://i.git99.com/app_img/20210710/78/37/94/1625849085.jpg'
+    },
+    {
+      title: 'Modern Ops: Gun Shooting Games Mod Apk 7.11  ',
+      link: 'https://happymod.com/modern-ops-online-pvp-shooter-mod/com.edkongames.mobs/',
+      thumb: 'https://i.git99.com/app_img/20220131/42/85/18/1643612723.jpg'
+    },
+    {
+      title: 'Cover Fire: Offline Shooting Mod Apk 1.21.26 [Unlimited money][VIP] ',
+      link: 'https://happymod.com/cover-fire-mod/com.generagames.resistance/',
+      thumb: 'https://i.git99.com/app_img/20210920/96/94/88/1632121923.jpg'
+    },
+    {
+      title: 'OVERDOX Mod Apk 2.1.0  ',
+      link: 'https://happymod.com/overdox-mod/com.haegin.overdox/',
+      thumb: 'https://i.git99.com/app_img/20210825/14/62/88/1629849222.jpg'
+    },
+    {
+      title: 'Trooper Shooter: 5v5 Co-op TPS Mod Apk 2.9 [Free purchase] ',
+      link: 'https://happymod.com/trooper-shooter-critical-assault-fps-mod/com.pocket.shooter/',
+      thumb: 'https://i.git99.com/app_img/20210925/32/94/75/1632527072.jpg'
+    },
+    {
+      title: 'ScarFall : The Royale Combat Mod Apk 1.6.82020  ',
+      link: 'https://happymod.com/scarfall-the-royale-combat-mod/com.phoenix.scarfall.free.fps.tps.battle.royale.combat.survival.shooting.battleground.war/',
+      thumb: 'https://i.git99.com/app_img/20211023/36/24/3/1634961399.jpg'
+    },
+    {
+      title: 'Hello Neighbor Mod Apk 1.0  ',
+      link: 'https://happymod.com/hello-neighbor-mod/com.tinybuildgames.helloneighbor/',
+      thumb: 'https://i.git99.com/app_img/20210630/85/13/91/1625045394.jpg'
+    },
+    {
+      title: 'GFX Tool for PUBG & Optimizer ',
+      link: 'https://happymod.com/gfx-tool-for-pubg-game-launcher-optimizer-mod/gfxtool.gamebooster.gfx/',
+      thumb: 'https://i.git99.com/app_img/20211129/78/80/4/1638174356.jpg'
+    },
+    {
+      title: 'Gun Fire: Fun Shooting Games Mod Apk 1.0.0  ',
+      link: 'https://happymod.com/grand-battle-island-pixel-multiplayer-shooter-3d-mod/com.pixel.grandbattle.multiplayer.fps/',
+      thumb: 'https://i.git99.com/app_img/20211004/28/99/53/1633333113.jpg'
+    },
+    {
+      title: 'Survival: Fire Battlegrounds Mod Apk 11.1  ',
+      link: 'https://happymod.com/free-survival-fire-battlegrounds-battle-royale-mod/com.c17h21no4.freesurvival.firebattlegrounds/',
+      thumb: 'https://i.git99.com/app_img/20210705/79/33/93/1625440292.jpg'
+    },
+    {
+      title: 'Gamehag ',
+      link: 'https://happymod.com/gamehag-mod/com.gamehag.app/',
+      thumb: 'https://i.git99.com/app_img/20210710/87/94/67/1625888064.jpg'
+    },
+    {
+      title: 'Winner Camp Mod Apk 3.2.5  ',
+      link: 'https://happymod.com/winner-camp-mod/com.neverlate.royale/',
+      thumb: 'https://i.git99.com/app_img/20210818/30/29/81/1629259570.jpg'
+    },
+    {
+      title: 'GFX TOOL 90 FPS for PUBG ',
+      link: 'https://happymod.com/gfx-tool-90-fps-for-pubg-mod/com.middroid.gfxtooll/',
+      thumb: 'https://i.git99.com/app_img/20211217/95/27/1/1639676272.jpg'
+    },
+    {
+      title: 'PGT: GFX, Launcher & Optimizer ',
+      link: 'https://happymod.com/pub-gfx-tool-free-1080p-hdr-120fps-4xmsaa-mod/inc.trilokia.pubgfxtool.free/',
+      thumb: 'https://i.git99.com/app_img/20220124/41/6/45/1643037259.jpg'
+    },
+    {
+      title: 'Gun Strike 2 : Commando Secret Mission-FPS Game Mod Apk 1.1.1.7 [Unlocked] ',
+      link: 'https://happymod.com/commando-strike-2021-multiplayer-fps-cover-strike-mod/com.fun.secretmission.commando.ops/',
+      thumb: 'https://i.git99.com/app_img/20210710/91/49/29/1625889427.jpg'
+    },
+    {
+      title: 'Cover Strike - 3D Team Shooter Mod Apk 1.7.02  ',
+      link: 'https://happymod.com/cover-strike-3d-team-shooter-mod/com.gun.black.ops/',
+      thumb: 'https://i.git99.com/app_img/20220226/27/77/46/1645831632.jpg'
+    },
+    {
+      title: 'BattleOps | Gun Shoot Game Mod Apk 1.4.0  ',
+      link: 'https://happymod.com/battleops-mod/com.thg.battleops.shooting.game/',
+      thumb: 'https://i.git99.com/app_img/20211124/51/32/82/1637762280.jpg'
+    }
+  ]
+}  
+```
 
 
 # Kusonime Search

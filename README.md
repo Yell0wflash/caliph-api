@@ -16,7 +16,7 @@ const caliph_api = require('caliph-api')
 # Emoji Mix
 ```js
 (async () => {
-var result = await caliph_api.emojimix("😭", "🥺")
+var result = await caliph_api.other.emojimix("😭", "🥺")
 console.log(result)
 })()
 ```
@@ -32,7 +32,7 @@ console.log(result)
 # Kusonime Search
 ```js
 (async () => {
-var result = await caliph_api.kusonime('eromanga sensei')
+var result = await caliph_api.search.kusonime('eromanga sensei')
 console.log(result)
 })()
 ```
@@ -92,7 +92,7 @@ console.log(result)
 # Cari Grup Wa
 ```js
 (async () => {
-var result = await caliph_api.carigrup('anime')
+var result = await caliph_api.search.carigrup('anime')
 console.log(result)
 })()
 ```
@@ -207,7 +207,7 @@ console.log(result)
 
 ## Encrypt
 ```js
-var result = caliph_api.binary.enc('hello world');
+var result = caliph_api.encrypt.binary.enc('hello world');
 console.log(result);
 ```
 ### Result 
@@ -216,7 +216,7 @@ console.log(result);
 
 ## Decrypt 
 ```js
-var result = caliph_api.binary.dec('1101000 1100101 1101100 1101100 1101111 100000 1110111 1101111 1110010 1101100 1100100');
+var result = caliph_api.encrypt.binary.dec('1101000 1100101 1101100 1101100 1101111 100000 1110111 1101111 1110010 1101100 1100100');
 console.log(result);
 ```
 
@@ -325,7 +325,7 @@ console.log(result);
 # Ip Lookup
 ```js
 (async () => {
-var result = await caliph_api.iplookup('1.1.1.1');
+var result = await caliph_api.search.iplookup('1.1.1.1');
 console.log(result);
 })()
 ```
@@ -361,7 +361,7 @@ console.log(result);
 # ig stalk 
 ```js
 (async () => {
-var result = await caliph_api.igstalk('caliph91_');
+var result = await caliph_api.search.igstalk('caliph91_');
 console.log(result)
 })()
 ```
@@ -396,7 +396,7 @@ console.log(result)
 
 ```js
 (async () => {
-var result = await caliph_api.artinama('Caliph');
+var result = await caliph_api.search.artinama('Caliph');
 console.log(result);
 })()
 ```
@@ -413,7 +413,7 @@ console.log(result);
 # Fake User-Agent
 `Get Random User-agent`
 ```js
-var result = caliph_api.fakeua();
+var result = caliph_api.random.fakeua();
 console.log(result);
 ```
 
@@ -425,7 +425,7 @@ console.log(result);
 
 ```js
 (async () => {
-var result = await caliph_api.cuaca('Jakarta');
+var result = await caliph_api.search.cuaca('Jakarta');
 console.log(result);
 })()
 ```

@@ -16,6 +16,7 @@ const emojimix = require("./lib/emojimix");
 const translate = require("./lib/translate");
 const rangkum = require("./lib/rangkum");
 const film = require("./lib/film");
+const wallpapercave = require("./lib/wallpapercave")
 
 
 module.exports = { info : { 
@@ -40,7 +41,8 @@ module.exports = { info : {
                   artinama,
                   igstalk,
                   cuaca,
-                  film
+                  film,
+                 wallpapercave
                   },
                   random: {
                    fakeua

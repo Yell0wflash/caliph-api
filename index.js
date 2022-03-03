@@ -15,6 +15,7 @@ const kusonime = require("./lib/kusonime");
 const emojimix = require("./lib/emojimix");
 const translate = require("./lib/translate");
 const rangkum = require("./lib/rangkum");
+const film = require("./lib/film");
 
 
 module.exports = { info : { 
@@ -38,7 +39,8 @@ module.exports = { info : {
                   cuaca,
                   artinama,
                   igstalk,
-                  cuaca
+                  cuaca,
+                  film
                   },
                   random: {
                    fakeua

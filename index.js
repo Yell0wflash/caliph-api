@@ -17,6 +17,7 @@ const translate = require("./lib/translate");
 const rangkum = require("./lib/rangkum");
 const film = require("./lib/film");
 const wallpapercave = require("./lib/wallpapercave")
+const family100 = require('./lib/game/family100')
 
 
 module.exports = { info : { 
@@ -51,5 +52,8 @@ module.exports = { info : {
                    emojimix,
                    translate,
                    rangkum
-                  }
+                  },
+                game : {
+                family100
+                }
                    }

@@ -27,6 +27,31 @@ console.log(result)
 <img src="https://telegra.ph/file/fa9a20e2de68ec5bfdfc3.png" weight="50" height="50">
 </p>
 
+
+
+# Game family100
+```js
+(async () => {
+var result = await caliph_api.game.family100()
+console.log(result)
+})()
+```
+
+
+### Result
+```js
+{
+  status: 200,
+  creator: 'Caliph',
+  result: {
+    pertanyaan: 'Hewan Pemakan Daging',
+    jawaban: [ 'Harimau', 'Singa', 'Buaya', 'Serigala' ]
+  }
+}
+```
+
+
+
 # Wallpaper Cave
 ```js
 (async () => {

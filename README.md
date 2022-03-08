@@ -1,5 +1,13 @@
 # caliph-api
 
+# Note
+ID
+Jika Ada Bug, Silahkan Buat [Issues](https://github.com/Caliph91/caliph-api/issues/new)
+
+EN
+If there are bugs, please create [Issues](https://github.com/Caliph91/caliph-api/issues/new)
+
+
 # Installation
 
 ## Latest

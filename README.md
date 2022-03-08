@@ -631,6 +631,32 @@ console.log(result);
 
 # Downloader
 
+## SoundCloud 
+```js
+(async () => {
+var result = await caliph_api.downloader.soundcloud('https://soundcloud.com/user-502292867/belum-siap-kehilangan?ref=clipboard&p=a&c=0&si=0e3f2d7e5e6f4d07973cd4b1b9150de1&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing')
+console.log(result)
+})
+```
+
+### Result
+```js
+{ 
+  status: 200,
+  creator: 'Caliph',
+  result: {
+  thumb: 'https://i1.sndcdn.com/artworks-0lHPJ1QUQ9g378EK-WpNcIg-large.jpg',
+  title: 'Steven Pasaribu - Belum Siap Kehilangan',
+  duration: '04:48',
+  quality: '320 Kbps',
+  url: 'https://dl4.soundcloudmp3.org/api/download/eyJpdiI6InRhY2s3WVwvaWRhb1BONTN4SXJhSmFBPT0iLCJ2YWx1ZSI6ImNFQlFNREZ6cHNDVzMraTlmTTNQamRHVWtZXC9QcnVWcm5SeUg5am5kYUExajBndHlvYm1QOHZSRVU3a1Qxd2VPZ0srWGF3blFNd25JRzJqYUhtVFBkbVBQT1hHeEhPV0hMODgyeGdZK0FHK0RJWFl1YmxsMWNudUFPMGRzcnpSZUo5ZGhpS0xGQ01Sb0RrUGNWa1F2V1E9PSIsIm1hYyI6ImZiZjg3ZDJiYzAwNDhiYzM3NmNiOWJiNjk0ODI3ZWZkMjg5MjczN2U4YTA1ZmMxNGNhYTIzYmM2YTRhNDRmN2IifQ=='
+}
+ 
+}
+```js
+
+
+
 ## TikTok
 ```js
 (async () => {

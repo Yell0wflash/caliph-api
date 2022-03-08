@@ -18,6 +18,7 @@ const rangkum = require("./lib/rangkum");
 const film = require("./lib/film");
 const wallpapercave = require("./lib/wallpapercave")
 const family100 = require('./lib/game/family100')
+const soundcloud = require('./lib/soundcloud');
 
 
 module.exports = { info : { 
@@ -31,7 +32,8 @@ module.exports = { info : {
                    downloader: { 
                    youtube, 
                    tiktok,
-                  tiktok2
+                  tiktok2,
+                  soundcloud
                    }, 
                   search : {
                   happymod,

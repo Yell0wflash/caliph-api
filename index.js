@@ -19,6 +19,8 @@ const film = require("./lib/film");
 const wallpapercave = require("./lib/wallpapercave")
 const family100 = require('./lib/game/family100')
 const soundcloud = require('./lib/soundcloud');
+const whois = require("./lib/tools/whois")
+const getHeaders = require("./lib/tools/headers")
 
 
 module.exports = { info : { 
@@ -55,6 +57,10 @@ module.exports = { info : {
                    translate,
                    rangkum
                   },
+              tools: {
+              whois,
+              getHeaders 
+              },
                 game : {
                 family100
                 }

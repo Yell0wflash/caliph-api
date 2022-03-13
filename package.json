@@ -41,6 +41,8 @@
     "yt-search": "^2.7.4",
     "ytdl-core": "^4.9.1",
     "instatouch": "^2.3.14",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "change-case": "^3.0.2",
+   "html-entities": "^1.2.1"
   }
 }

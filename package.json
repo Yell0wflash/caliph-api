@@ -5,7 +5,8 @@
   "depecrated": false,
   "main": "index.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "lib/tools": "lib/tools"
   },
   "scripts": {
     "start": "node index.js",

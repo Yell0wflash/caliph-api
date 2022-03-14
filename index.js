@@ -21,6 +21,7 @@ const family100 = require('./lib/game/family100')
 const soundcloud = require('./lib/soundcloud');
 const whois = require("./lib/tools/whois")
 const getHeaders = require("./lib/tools/headers")
+const shortlink = require("./lib/tools/shortlink")
 
 
 module.exports = { info : { 
@@ -59,7 +60,8 @@ module.exports = { info : {
                   },
               tools: {
               whois,
-              getHeaders 
+              getHeaders,
+             shortlink
               },
                 game : {
                 family100

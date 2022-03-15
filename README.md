@@ -87,3 +87,85 @@ api.downloader.soundcloud(url)
 .then(console.log)
 ```
 
+## Search 
+```js
+// Happymod
+api.search.happymod(query)
+.then(console.log)
+
+// Cari Grup Wa
+api.search.carigrup(query)
+.then(console.log)
+
+// Kusonime
+api.search.kusonime(query)
+.then(console.log)
+
+// IP Lookup
+api.search.iplookup(domain/ip)
+.then(console.log)
+
+// Cuaca
+api.search.cuaca(kota/city)
+.then(console.log)
+
+// Artinama
+api.search.artinama(String)
+.then(console.log)
+
+// IG Stalk
+api.search.igstalk(user)
+.then(console.log)
+
+// Film
+api.search.film(query)
+.then(console.log)
+
+// Wallpaper Cave
+api.search.wallpapercave(query)
+.then(console.log)
+```
+
+## Random
+```js
+// Fake UserAgent
+const result = api.random.fakeua()
+console.log(result)
+```
+
+## Other
+```js
+// Emojimix
+api.other.emojimix(Emoji1, Emoji2)
+.then(console.log)
+
+// Translate
+api.other.translate(String, lang)
+.then(console.log) // Lang (Optional, Default: id)
+
+// Rangkum (summarize)
+api.other.rangkum(String)
+.then(console.log)
+```
+
+## Tools
+```js
+// Whois
+api.tools.whois(domain)
+.then(console.log)
+
+// getHeaders 
+api.tools.getHeaders(url)
+.then(console.log)
+
+// Shortlink
+api.tools.shortlink(url, custom)
+.then(console.log) // custom (optional, default: random)
+```
+
+## Game
+```js
+// Family100
+api.game.family100()
+.then(console.log)
+```

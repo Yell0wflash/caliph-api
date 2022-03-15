@@ -19,6 +19,7 @@ If there are bugs, please create [Issues](https://github.com/Caliph91/caliph-api
 # Require
 ```js
 const api = require("caliph-api")
+```
 
 # Docs
 

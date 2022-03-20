@@ -162,6 +162,11 @@ api.tools.getHeaders(url)
 // Shortlink
 api.tools.shortlink(url, custom)
 .then(console.log) // custom (optional, default: random)
+
+// Upload File
+api.tools.shortlink(Buffer)
+.then(console.log) // upload file to https://uploader.caliph.my.id
+
 ```
 
 ## Game

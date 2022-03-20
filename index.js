@@ -16,13 +16,13 @@ const emojimix = require("./lib/emojimix");
 const translate = require("./lib/translate");
 const rangkum = require("./lib/rangkum");
 const film = require("./lib/film");
-const wallpapercave = require("./lib/wallpapercave")
-const family100 = require('./lib/game/family100')
+const wallpapercave = require("./lib/wallpapercave");
+const family100 = require('./lib/game/family100');
 const soundcloud = require('./lib/soundcloud');
-const whois = require("./lib/tools/whois")
-const getHeaders = require("./lib/tools/headers")
-const shortlink = require("./lib/tools/shortlink")
-const uploadFile = require("./lib/tools/uploadFile")
+const whois = require("./lib/tools/whois");
+const getHeaders = require("./lib/tools/headers");
+const shortlink = require("./lib/tools/shortlink");
+const uploadFile = require("./lib/tools/uploadFile");
 
 
 module.exports = { info : { 

@@ -164,7 +164,7 @@ api.tools.shortlink(url, custom)
 .then(console.log) // custom (optional, default: random)
 
 // Upload File
-api.tools.shortlink(Buffer)
+api.tools.uploadFile(Buffer)
 .then(console.log) // upload file to https://uploader.caliph.my.id
 
 ```

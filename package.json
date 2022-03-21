@@ -1,6 +1,6 @@
 {
   "name": "caliph-api",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Simple API by Caliph",
   "depecrated": false,
   "main": "index.js",
@@ -39,6 +39,8 @@
    "@vitalets/google-translate-api": "^7.0.0",
     "node-fetch": "^2.6.1",
     "yt-search": "^2.7.4",
+    "file-type": "^16.5.3",
+    "form-data": "^4.0.0",
     "ytdl-core": "^4.9.1",
     "whois": "latest",
     "instatouch": "^2.3.14",

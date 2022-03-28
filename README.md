@@ -167,6 +167,8 @@ api.tools.shortlink(url, custom)
 api.tools.uploadFile(Buffer)
 .then(console.log) // upload file to https://uploader.caliph.my.id
 
+// Minifyjs
+api.tools.minifyjs(Code_javascript)
 ```
 
 ## Game

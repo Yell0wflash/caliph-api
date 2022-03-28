@@ -7,7 +7,7 @@ const cuaca = require('./lib/cuaca');
 const youtube = require("./lib/youtube");
 const fakeua = require("./lib/fakeua");
 const tiktok2 = require('./lib/tiktok2');
-const tiktok = require('./lib/tiktok2');
+const tiktok = require('./lib/tiktok');
 const igstalk = require('./lib/igstalk');
 const carigrup = require("./lib/grupwa");
 const happymod = require("./lib/happymod");
@@ -23,6 +23,7 @@ const whois = require("./lib/tools/whois");
 const getHeaders = require("./lib/tools/headers");
 const shortlink = require("./lib/tools/shortlink");
 const uploadFile = require("./lib/tools/uploadFile");
+const minifyjs = require("./lib/tools/minifyjs");
 
 
 module.exports = { info : { 
@@ -63,7 +64,8 @@ module.exports = { info : {
               whois,
               getHeaders,
              shortlink,
-             uploadFile
+             uploadFile,
+             minifyjs
               },
                 game : {
                 family100

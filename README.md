@@ -169,11 +169,18 @@ api.tools.uploadFile(Buffer)
 
 // Minifyjs
 api.tools.minifyjs(Code_javascript)
+
+// Encrypt HTML
+api.tools.EncryptHTML(Code_html)
 ```
 
 ## Game
 ```js
 // Family100
 api.game.family100()
+.then(console.log)
+
+// Siapakah Aku
+api.game.siapakahaku()
 .then(console.log)
 ```

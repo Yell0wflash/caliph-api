@@ -24,6 +24,8 @@ const getHeaders = require("./lib/tools/headers");
 const shortlink = require("./lib/tools/shortlink");
 const uploadFile = require("./lib/tools/uploadFile");
 const minifyjs = require("./lib/tools/minifyjs");
+const siapakahaku = require("./lib/game/siapakahaku");
+const EncryptHTML = require("./lib/tools/enc-html");
 
 
 module.exports = { info : { 
@@ -65,9 +67,11 @@ module.exports = { info : {
               getHeaders,
              shortlink,
              uploadFile,
-             minifyjs
+             minifyjs,
+             EncryptHTML
               },
                 game : {
-                family100
+                family100,
+                siapakahaku
                 }
                    }

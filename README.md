@@ -125,6 +125,14 @@ api.search.film(query)
 // Wallpaper Cave
 api.search.wallpapercave(query)
 .then(console.log)
+
+// Singkatan Kata
+api.search.singkatankata(Kata)
+.then(console.log)
+
+// Persamaan Kata (Sinomin)
+api.search.persamaankata(Kata)
+.then(console.log)
 ```
 
 ## Random

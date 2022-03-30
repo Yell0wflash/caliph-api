@@ -1,6 +1,6 @@
 {
   "name": "caliph-api",
-  "version": "0.7.4",
+  "version": "0.7.6",
   "description": "Simple API by Caliph",
   "depecrated": false,
   "main": "index.js",
@@ -19,7 +19,9 @@
     "rest-api",
     "scraper",
     "downloader",
-    "tools"
+    "tools",
+    "multifunctions",
+    "scrapers"
   ],
   "homepage": "https://npm.caliphapi.com",
   "author": {

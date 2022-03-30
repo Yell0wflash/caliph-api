@@ -27,7 +27,7 @@ const minifyjs = require("./lib/tools/minifyjs");
 const siapakahaku = require("./lib/game/siapakahaku");
 const EncryptHTML = require("./lib/tools/enc-html");
 const persamaankata = require("./lib/persamaankata");
-const singkatankata = require("./lib/singakatankata")
+const singkatankata = require("./lib/singkatankata");
 
 module.exports = { info : { 
                   version, 

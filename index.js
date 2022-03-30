@@ -26,7 +26,8 @@ const uploadFile = require("./lib/tools/uploadFile");
 const minifyjs = require("./lib/tools/minifyjs");
 const siapakahaku = require("./lib/game/siapakahaku");
 const EncryptHTML = require("./lib/tools/enc-html");
-
+const persamaankata = require("./lib/persamaankata");
+const singkatankata = require("./lib/singakatankata")
 
 module.exports = { info : { 
                   version, 
@@ -52,7 +53,9 @@ module.exports = { info : {
                   igstalk,
                   cuaca,
                   film,
-                 wallpapercave
+                 wallpapercave,
+                 singkatankata,
+                 persamaankata
                   },
                   random: {
                    fakeua

@@ -30,6 +30,7 @@ const persamaankata = require("./lib/persamaankata");
 const singkatankata = require("./lib/singkatankata");
 const quran = require("./lib/alquran")
 const instagram = require("./lib/instagram")
+const freefireid = require("./lib/freefireid")
 
 module.exports = { info : { 
                   version, 
@@ -59,7 +60,8 @@ module.exports = { info : {
                  wallpapercave,
                  singkatankata,
                  persamaankata,
-                 quran
+                 quran,
+                 freefireid
                   },
                   random: {
                    fakeua

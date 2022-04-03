@@ -145,6 +145,10 @@ api.search.persamaankata(Kata)
 // Al Quran
 api.search.quran(Surah)
 .then(console.log)
+
+// Free Fire ID
+api.search.freefireid(ID)
+.then(console.log)
 ```
 
 ## Random

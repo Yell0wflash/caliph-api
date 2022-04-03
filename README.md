@@ -86,6 +86,14 @@ api.downloader.tiktok2(url)
 // SoundCloud 
 api.downloader.soundcloud(url)
 .then(console.log)
+
+// Instagram (Post)
+api.downloader.instagram.post(URL)
+.then(console.log)
+
+// Instagram (Story)
+api.downloader.instagram.story(Username_IG)
+.then(console.log)
 ```
 
 ## Search 

@@ -28,6 +28,7 @@ const siapakahaku = require("./lib/game/siapakahaku");
 const EncryptHTML = require("./lib/tools/enc-html");
 const persamaankata = require("./lib/persamaankata");
 const singkatankata = require("./lib/singkatankata");
+const quran = require("./lib/alquran")
 
 module.exports = { info : { 
                   version, 
@@ -55,7 +56,8 @@ module.exports = { info : {
                   film,
                  wallpapercave,
                  singkatankata,
-                 persamaankata
+                 persamaankata,
+                 quran
                   },
                   random: {
                    fakeua

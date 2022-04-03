@@ -133,6 +133,10 @@ api.search.singkatankata(Kata)
 // Persamaan Kata (Sinomin)
 api.search.persamaankata(Kata)
 .then(console.log)
+
+// Al Quran
+api.search.quran(Surah)
+.then(console.log)
 ```
 
 ## Random

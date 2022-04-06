@@ -2,10 +2,12 @@
 
 # Note
 ID</br>
-Jika Ada Bug, Silahkan Buat [Issues](https://github.com/Caliph91/caliph-api/issues/new)
+Jika Ada Bug,</br>
+Silahkan Buat [Issues](https://github.com/Caliph91/caliph-api/issues/new)
 
 EN</br>
-If there are bugs, please create [Issues](https://github.com/Caliph91/caliph-api/issues/new)
+If there are bugs,</br>
+please create [Issues](https://github.com/Caliph91/caliph-api/issues/new)
 
 
 # Installation
@@ -148,6 +150,10 @@ api.search.quran(Surah)
 
 // Free Fire ID
 api.search.freefireid(ID)
+.then(console.log)
+
+// Wall Alphacoders
+api.search.wall_alphacoders(Query) 
 .then(console.log)
 ```
 

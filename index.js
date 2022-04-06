@@ -31,6 +31,7 @@ const singkatankata = require("./lib/singkatankata");
 const quran = require("./lib/alquran")
 const instagram = require("./lib/instagram")
 const freefireid = require("./lib/freefireid")
+const wall_alphacoders = require("./lib/wall.alphacoders.js")
 
 module.exports = { info : { 
                   version, 
@@ -61,7 +62,8 @@ module.exports = { info : {
                  singkatankata,
                  persamaankata,
                  quran,
-                 freefireid
+                 freefireid,
+                 wall_alphacoders
                   },
                   random: {
                    fakeua

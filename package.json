@@ -1,6 +1,6 @@
 {
  "name": "caliph-api",
- "version": "0.7.8",
+ "version": "0.7.9",
  "description": "Simple API by Caliph",
  "depecrated": false,
  "main": "index.js",
@@ -48,6 +48,7 @@
   "ytdl-core": "^4.9.1",
   "whois": "latest",
   "instatouch": "^2.3.14",
+  "mime": "^1.6.0",
   "fs": "^0.0.1-security",
   "change-case": "^3.0.2",
   "html-entities": "^1.2.1"

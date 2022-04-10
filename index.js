@@ -36,6 +36,7 @@ const instagram = require("./lib/instagram");
 const freefireid = require("./lib/freefireid");
 const wall_alphacoders = require("./lib/wall.alphacoders.js");
 const quotesanime = require("./lib/quotesanime");
+const mediafire = require("./lib/mediafire");
 
 module.exports = {
  info: {
@@ -51,7 +52,8 @@ module.exports = {
   tiktok,
   tiktok2,
   soundcloud,
-  instagram
+  instagram,
+  mediafire
  },
  search: {
   happymod,

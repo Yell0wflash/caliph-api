@@ -1,4 +1,7 @@
-const { version, author } = require('./package.json');
+const {
+ version,
+ author
+} = require('./package.json');
 const binary = require('./lib/binary');
 const iplookup = require('./lib/iplook');
 const artinama = require('./lib/artinama');
@@ -28,61 +31,64 @@ const siapakahaku = require("./lib/game/siapakahaku");
 const EncryptHTML = require("./lib/tools/enc-html");
 const persamaankata = require("./lib/persamaankata");
 const singkatankata = require("./lib/singkatankata");
-const quran = require("./lib/alquran")
-const instagram = require("./lib/instagram")
-const freefireid = require("./lib/freefireid")
-const wall_alphacoders = require("./lib/wall.alphacoders.js")
+const quran = require("./lib/alquran");
+const instagram = require("./lib/instagram");
+const freefireid = require("./lib/freefireid");
+const wall_alphacoders = require("./lib/wall.alphacoders.js");
+const quotesanime = require("./lib/quotesanime");
 
-module.exports = { info : { 
-                  version, 
-                   author: author
-                  },
-                  encrypt: {
-                   binary
-                   },
-                   stress, 
-                   downloader: { 
-                   youtube, 
-                   tiktok,
-                  tiktok2,
-                  soundcloud,
-                  instagram
-                   }, 
-                  search : {
-                  happymod,
-                  carigrup,
-                  kusonime,
-                 iplookup,
-                  cuaca,
-                  artinama,
-                  igstalk,
-                  cuaca,
-                  film,
-                 wallpapercave,
-                 singkatankata,
-                 persamaankata,
-                 quran,
-                 freefireid,
-                 wall_alphacoders
-                  },
-                  random: {
-                   fakeua
-                   },
-                  other: {
-                   emojimix,
-                   translate,
-                   rangkum
-                  },
-              tools: {
-              whois,
-              getHeaders,
-             shortlink,
-             uploadFile,
-             minifyjs,
-             EncryptHTML
-              },
-                game : {
-                family100,
-                siapakahaku
-                }
-                   }
+module.exports = {
+ info: {
+  version,
+  author: author
+ },
+ encrypt: {
+  binary
+ },
+ stress,
+ downloader: {
+  youtube,
+  tiktok,
+  tiktok2,
+  soundcloud,
+  instagram
+ },
+ search: {
+  happymod,
+  carigrup,
+  kusonime,
+  iplookup,
+  cuaca,
+  artinama,
+  igstalk,
+  cuaca,
+  film,
+  wallpapercave,
+  singkatankata,
+  persamaankata,
+  quran,
+  freefireid,
+  wall_alphacoders
+ },
+ random: {
+  fakeua,
+  quotesanime
+ },
+ other: {
+  emojimix,
+  translate,
+  rangkum
+ },
+ tools: {
+  whois,
+  getHeaders,
+  shortlink,
+  uploadFile,
+  minifyjs,
+  EncryptHTML
+ },
+ game: {
+  family100,
+  siapakahaku
+ }
+}

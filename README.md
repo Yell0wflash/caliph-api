@@ -162,6 +162,10 @@ api.search.wall_alphacoders(Query)
 // Fake UserAgent
 const result = api.random.fakeua()
 console.log(result)
+
+// Quotes Anime
+api.random.quotesanime()
+.then(console.log)
 ```
 
 ## Other

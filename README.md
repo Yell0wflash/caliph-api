@@ -96,6 +96,10 @@ api.downloader.instagram.post(URL)
 // Instagram (Story)
 api.downloader.instagram.story(Username_IG)
 .then(console.log)
+
+// MediaFire
+api.downloader.mediafire(URL)
+.then(console.log)
 ```
 
 ## Search 

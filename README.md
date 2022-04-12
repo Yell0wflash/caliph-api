@@ -100,6 +100,10 @@ api.downloader.instagram.story(Username_IG)
 // MediaFire
 api.downloader.mediafire(URL)
 .then(console.log)
+
+// ZippyShare
+api.downloader.zippyshare(URL)
+.then(console.log)
 ```
 
 ## Search 
@@ -214,6 +218,10 @@ api.tools.minifyjs(Code_javascript)
 
 // Encrypt HTML
 api.tools.EncryptHTML(Code_html)
+
+// Unshort URL
+api.tools.expandurl(URL)
+.then(console.log)
 ```
 
 ## Game

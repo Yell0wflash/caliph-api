@@ -39,6 +39,7 @@ const quotesanime = require("./lib/quotesanime");
 const mediafire = require("./lib/mediafire");
 const ttstalk = require("./lib/ttstalk");
 const urlexpand = require("./lib/urlexpand");
+const zippyshare = require("./lib/zippyshare");
 
 module.exports = {
  info: {
@@ -55,7 +56,8 @@ module.exports = {
   tiktok2,
   soundcloud,
   instagram,
-  mediafire
+  mediafire,
+  zippyshare
  },
  search: {
   happymod,
@@ -91,7 +93,7 @@ module.exports = {
   uploadFile,
   minifyjs,
   EncryptHTML,
-  urlexpand
+  expandurl: urlexpand
  },
  game: {
   family100,

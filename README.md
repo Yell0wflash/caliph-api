@@ -159,6 +159,10 @@ api.search.freefireid(ID)
 // Wall Alphacoders
 api.search.wall_alphacoders(Query) 
 .then(console.log)
+
+// Tiktok Stalk
+api.search.ttstalk(username_tiktok)
+.then(console.log)
 ```
 
 ## Random

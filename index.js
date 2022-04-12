@@ -37,6 +37,8 @@ const freefireid = require("./lib/freefireid");
 const wall_alphacoders = require("./lib/wall.alphacoders.js");
 const quotesanime = require("./lib/quotesanime");
 const mediafire = require("./lib/mediafire");
+const ttstalk = require("./lib/ttstalk");
+const urlexpand = require("./lib/urlexpand");
 
 module.exports = {
  info: {
@@ -70,7 +72,8 @@ module.exports = {
   persamaankata,
   quran,
   freefireid,
-  wall_alphacoders
+  wall_alphacoders,
+  ttstalk
  },
  random: {
   fakeua,
@@ -87,7 +90,8 @@ module.exports = {
   shortlink,
   uploadFile,
   minifyjs,
-  EncryptHTML
+  EncryptHTML,
+  urlexpand
  },
  game: {
   family100,

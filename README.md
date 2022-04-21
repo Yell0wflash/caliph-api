@@ -36,10 +36,16 @@ const result = api.encrypt.binary.enc("hello world");
 console.log(result); // 1101000 1100101 1101100 1101100 1101111 100000 1110111 1101111 1110010 1101100 1100100
 
 // Binary (Decrypt)
-const result = api.encrypt.binary.dec(
-  "1101000 1100101 1101100 1101100 1101111 100000 1110111 1101111 1110010 1101100 1100100"
-);
+const result = api.encrypt.binary.dec("1101000 1100101 1101100 1101100 1101111 100000 1110111 1101111 1110010 1101100 1100100");
 console.log(result); // Hello World
+```
+
+## Information
+
+```js
+// Info Gempa Terbaru
+api.info.gempa()
+.then(console.log);
 ```
 
 ## Wibu Stress
@@ -108,6 +114,10 @@ api.downloader.mediafire(URL)
 // ZippyShare
 api.downloader.zippyshare(URL)
 .then(console.log);
+
+// Pinterest Downloader
+api.downloader.pin(URL)
+.then(console.log)
 ```
 
 ## Search
@@ -171,6 +181,10 @@ api.search.wall_alphacoders(Query)
 
 // Tiktok Stalk
 api.search.ttstalk(username_tiktok)
+.then(console.log);
+
+// Pinterest Search 
+api.search.pin(Query)
 .then(console.log);
 ```
 

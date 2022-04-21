@@ -66,86 +66,112 @@ console.log(result);
 
 ```js
 // YouTube Music
-api.downloader.youtube.ytmp3(url).then(console.log);
+api.downloader.youtube.ytmp3(url)
+.then(console.log);
 
 // Youtube Video
-api.downloader.youtube.ytmp4(url).then(console.log);
+api.downloader.youtube.ytmp4(url)
+.then(console.log);
 
 // Youtube Play Music
-api.downloader.youtube.ytplay(query).then(console.log);
+api.downloader.youtube.ytplay(query)
+.then(console.log);
 
 // YouTube Play Video
-api.downloader.youtube.ytplayvid(query).then(console.log);
+api.downloader.youtube.ytplayvid(query)
+.then(console.log);
 
 // Tiktok
-api.downloader.tiktok(url).then(console.log);
+api.downloader.tiktok(url)
+.then(console.log);
 
 // Tiktok 2
-api.downloader.tiktok2(url).then(console.log);
+api.downloader.tiktok2(url)
+.then(console.log);
 
 // SoundCloud
-api.downloader.soundcloud(url).then(console.log);
+api.downloader.soundcloud(url)
+.then(console.log);
 
 // Instagram (Post)
-api.downloader.instagram.post(URL).then(console.log);
+api.downloader.instagram.post(URL)
+.then(console.log);
 
 // Instagram (Story)
-api.downloader.instagram.story(Username_IG).then(console.log);
+api.downloader.instagram.story(Username_IG)
+.then(console.log);
 
 // MediaFire
-api.downloader.mediafire(URL).then(console.log);
+api.downloader.mediafire(URL)
+.then(console.log);
 
 // ZippyShare
-api.downloader.zippyshare(URL).then(console.log);
+api.downloader.zippyshare(URL)
+.then(console.log);
 ```
 
 ## Search
 
 ```js
 // Happymod
-api.search.happymod(query).then(console.log);
+api.search.happymod(query)
+.then(console.log);
 
 // Cari Grup Wa
-api.search.carigrup(query).then(console.log);
+api.search.carigrup(query)
+.then(console.log);
 
 // Kusonime
-api.search.kusonime(query).then(console.log);
+api.search.kusonime(query)
+.then(console.log);
 
 // IP Lookup
-api.search.iplookup(domain / ip).then(console.log);
+api.search.iplookup(domain / ip)
+.then(console.log);
 
 // Cuaca
-api.search.cuaca(kota / city).then(console.log);
+api.search.cuaca(kota / city)
+.then(console.log);
 
 // Artinama
-api.search.artinama(String).then(console.log);
+api.search.artinama(String)
+.then(console.log);
 
 // IG Stalk
-api.search.igstalk(user).then(console.log);
+api.search.igstalk(user)
+.then(console.log);
 
 // Film
-api.search.film(query).then(console.log);
+api.search.film(query)
+.then(console.log);
 
 // Wallpaper Cave
-api.search.wallpapercave(query).then(console.log);
+api.search.wallpapercave(query)
+.then(console.log);
 
 // Singkatan Kata
-api.search.singkatankata(Kata).then(console.log);
+api.search.singkatankata(Kata)
+.then(console.log);
 
 // Persamaan Kata (Sinomin)
-api.search.persamaankata(Kata).then(console.log);
+api.search.persamaankata(Kata)
+.then(console.log);
 
 // Al Quran
-api.search.quran(Surah).then(console.log);
+api.search.quran(Surah)
+.then(console.log);
 
 // Free Fire ID
-api.search.freefireid(ID).then(console.log);
+api.search.freefireid(ID)
+.then(console.log);
 
 // Wall Alphacoders
-api.search.wall_alphacoders(Query).then(console.log);
+api.search.wall_alphacoders(Query)
+.then(console.log);
 
 // Tiktok Stalk
-api.search.ttstalk(username_tiktok).then(console.log);
+api.search.ttstalk(username_tiktok)
+.then(console.log);
 ```
 
 ## Random
@@ -156,36 +182,44 @@ const result = api.random.fakeua();
 console.log(result);
 
 // Quotes Anime
-api.random.quotesanime().then(console.log);
+api.random.quotesanime()
+.then(console.log);
 ```
 
 ## Other
 
 ```js
 // Emojimix
-api.other.emojimix(Emoji1, Emoji2).then(console.log);
+api.other.emojimix(Emoji1, Emoji2)
+.then(console.log);
 
 // Translate
-api.other.translate(String, lang).then(console.log); // Lang (Optional, Default: id)
+api.other.translate(String, lang)
+.then(console.log); // Lang (Optional, Default: id)
 
 // Rangkum (summarize)
-api.other.rangkum(String).then(console.log);
+api.other.rangkum(String)
+.then(console.log);
 ```
 
 ## Tools
 
 ```js
 // Whois
-api.tools.whois(domain).then(console.log);
+api.tools.whois(domain)
+.then(console.log);
 
 // getHeaders
-api.tools.getHeaders(url).then(console.log);
+api.tools.getHeaders(url)
+.then(console.log);
 
 // Shortlink
-api.tools.shortlink(url, custom).then(console.log); // custom (optional, default: random)
+api.tools.shortlink(url, custom)
+.then(console.log); // custom (optional, default: random)
 
 // Upload File
-api.tools.uploadFile(Buffer).then(console.log); // upload file to https://uploader.caliph.my.id
+api.tools.uploadFile(Buffer)
+.then(console.log); // upload file to https://uploader.caliph.my.id
 
 // Minifyjs
 api.tools.minifyjs(Code_javascript);
@@ -194,15 +228,21 @@ api.tools.minifyjs(Code_javascript);
 api.tools.EncryptHTML(Code_html);
 
 // Unshort URL
-api.tools.expandurl(URL).then(console.log);
+api.tools.expandurl(URL)
+.then(console.log);
 ```
 
 ## Game
 
 ```js
 // Family100
-api.game.family100().then(console.log);
+api.game.family100()
+.then(console.log);
 
 // Siapakah Aku
-api.game.siapakahaku().then(console.log);
+api.game.siapakahaku()
+.then(console.log);
 ```
+
+)
+.then(

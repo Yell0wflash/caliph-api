@@ -116,7 +116,7 @@ api.downloader.zippyshare(URL)
 .then(console.log);
 
 // Pinterest Downloader
-api.downloader.pin(URL)
+api.downloader.pindl(URL)
 .then(console.log)
 ```
 

@@ -37,7 +37,7 @@ const mediafire = require("./lib/mediafire");
 const ttstalk = require("./lib/ttstalk");
 const urlexpand = require("./lib/urlexpand");
 const zippyshare = require("./lib/zippyshare");
-const gempa = require("../lib/infogempa");
+const gempa = require("./lib/infogempa");
 const pindl = require("./lib/pindl");
 const pin = require("./lib/pinsrch");
 

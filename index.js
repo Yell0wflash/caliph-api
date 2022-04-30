@@ -40,6 +40,7 @@ const zippyshare = require("./lib/zippyshare");
 const gempa = require("./lib/infogempa");
 const pindl = require("./lib/pindl");
 const pin = require("./lib/pinsrch");
+const soundcloud2 = require("./lib/soundcloudsearch");
 
 module.exports = {
   version,
@@ -79,6 +80,7 @@ module.exports = {
     wall_alphacoders,
     ttstalk,
     pin,
+   soundcloud: soundcloud2
   },
   random: {
     fakeua,

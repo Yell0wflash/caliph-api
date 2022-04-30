@@ -186,6 +186,10 @@ api.search.ttstalk(username_tiktok)
 // Pinterest Search 
 api.search.pin(Query)
 .then(console.log);
+
+// Soundcloud Search
+api.search.soundcloud(Query)
+.then(console.log)
 ```
 
 ## Random

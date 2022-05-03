@@ -261,6 +261,3 @@ api.game.family100()
 api.game.siapakahaku()
 .then(console.log);
 ```
-
-)
-.then(

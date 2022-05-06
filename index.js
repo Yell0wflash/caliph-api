@@ -80,7 +80,7 @@ module.exports = {
     wall_alphacoders,
     ttstalk,
     pin,
-   soundcloud: soundcloud2
+    soundcloud: soundcloud2,
   },
   random: {
     fakeua,

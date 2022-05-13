@@ -23,6 +23,7 @@ const whois = require("./lib/tools/whois");
 const getHeaders = require("./lib/tools/headers");
 const shortlink = require("./lib/tools/shortlink");
 const uploadFile = require("./lib/tools/uploadFile");
+const uploadFile2 = require("./lib/tools/uploadFile2");
 const minifyjs = require("./lib/tools/minifyjs");
 const siapakahaku = require("./lib/game/siapakahaku");
 const EncryptHTML = require("./lib/tools/enc-html");
@@ -96,6 +97,7 @@ module.exports = {
     getHeaders,
     shortlink,
     uploadFile,
+uploadFile2,
     minifyjs,
     EncryptHTML,
     expandurl: urlexpand,

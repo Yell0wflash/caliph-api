@@ -97,7 +97,7 @@ module.exports = {
     getHeaders,
     shortlink,
     uploadFile,
-uploadFile2,
+    uploadFile2,
     minifyjs,
     EncryptHTML,
     expandurl: urlexpand,

@@ -27,6 +27,7 @@ const uploadFile2 = require("./lib/tools/uploadFile2");
 const minifyjs = require("./lib/tools/minifyjs");
 const siapakahaku = require("./lib/game/siapakahaku");
 const EncryptHTML = require("./lib/tools/enc-html");
+const isporn = require("./lib/tools/is-porn");
 const persamaankata = require("./lib/persamaankata");
 const singkatankata = require("./lib/singkatankata");
 const quran = require("./lib/alquran");
@@ -101,6 +102,7 @@ module.exports = {
     minifyjs,
     EncryptHTML,
     expandurl: urlexpand,
+    isporn
   },
   game: {
     family100,

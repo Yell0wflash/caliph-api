@@ -102,7 +102,7 @@ module.exports = {
     minifyjs,
     EncryptHTML,
     expandurl: urlexpand,
-    isporn
+    isporn,
   },
   game: {
     family100,

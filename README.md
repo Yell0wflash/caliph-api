@@ -248,6 +248,10 @@ api.tools.EncryptHTML(Code_html);
 // Unshort URL
 api.tools.expandurl(URL)
 .then(console.log);
+
+// Is Porn
+api.tools.isporn(domain)
+.then(console.log);
 ```
 
 ## Game

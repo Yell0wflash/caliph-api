@@ -4,17 +4,17 @@
 
 ID</br>
 Jika Ada Bug,</br>
-Silahkan Buat [Issues](https://github.com/Caliph91/caliph-api/issues/new)
+Silahkan Buat [Issues](https://github.com/caliphdev/caliph-api/issues/new)
 
 EN</br>
 If there are bugs,</br>
-please create [Issues](https://github.com/Caliph91/caliph-api/issues/new)
+please create [Issues](https://github.com/caliphdev/caliph-api/issues/new)
 
 # Installation
 
 ## Latest
 
-`npm i github:caliph91/caliph-api`
+`npm i github:caliphdev/caliph-api`
 
 ## Npm
 

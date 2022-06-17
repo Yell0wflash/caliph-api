@@ -190,6 +190,14 @@ api.search.pin(Query)
 // Soundcloud Search
 api.search.soundcloud(Query)
 .then(console.log)
+
+// Sfile.mobi search
+api.search.sfile(Query)
+.then(console.log)
+
+// Chord Lagu
+api.search.chordlagu(Query)
+.then(console.log)
 ```
 
 ## Random
@@ -239,6 +247,10 @@ api.tools.shortlink(url, custom)
 api.tools.uploadFile(Buffer)
 .then(console.log); // upload file to https://uploader.caliph.my.id
 
+// Upload File 2
+api.tools.uploadFile2(Buffer)
+.then(console.log); // upload file to https://www.filezone.cf
+
 // Minifyjs
 api.tools.minifyjs(Code_javascript);
 
@@ -252,6 +264,10 @@ api.tools.expandurl(URL)
 // Is Porn
 api.tools.isporn(domain)
 .then(console.log);
+
+// TextPro Maker
+api.tools.textpro(URL, [text1, text2])
+.then(console.log)
 ```
 
 ## Game

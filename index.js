@@ -43,6 +43,9 @@ const gempa = require("./lib/infogempa");
 const pindl = require("./lib/pindl");
 const pin = require("./lib/pinsrch");
 const soundcloud2 = require("./lib/soundcloudsearch");
+const textpro = require("./lib/textpro");
+const sfile = require("./lib/sfile");
+const chordlagu = require("./lib/chordlagu");
 
 module.exports = {
   version,
@@ -83,6 +86,8 @@ module.exports = {
     ttstalk,
     pin,
     soundcloud: soundcloud2,
+    sfile,
+    chordlagu
   },
   random: {
     fakeua,
@@ -103,6 +108,7 @@ module.exports = {
     EncryptHTML,
     expandurl: urlexpand,
     isporn,
+    textpro
   },
   game: {
     family100,

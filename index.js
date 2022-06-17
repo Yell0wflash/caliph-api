@@ -87,7 +87,7 @@ module.exports = {
     pin,
     soundcloud: soundcloud2,
     sfile,
-    chordlagu
+    chordlagu,
   },
   random: {
     fakeua,
@@ -108,7 +108,7 @@ module.exports = {
     EncryptHTML,
     expandurl: urlexpand,
     isporn,
-    textpro
+    textpro,
   },
   game: {
     family100,

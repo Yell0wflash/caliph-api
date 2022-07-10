@@ -1,6 +1,6 @@
 {
   "name": "caliph-api",
-  "version": "0.8.6",
+  "version": "0.9.0",
   "description": "Simple API by Caliph",
   "depecrated": false,
   "main": "index.js",
@@ -23,7 +23,7 @@
     "multifunctions",
     "scrapers"
   ],
-  "homepage": "https://npm.caliphapi.com",
+  "homepage": "https://caliph-api.js.org/",
   "author": {
     "name": "caliphdev",
     "email": "admin@caliph.my.id"

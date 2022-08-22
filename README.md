@@ -231,6 +231,11 @@ api.other.rangkum(String)
 ## Tools
 
 ```js
+// Subdomain Finder
+// lookup all subdomain
+api.tools.subfinder(domain)
+.then(console.log) // ex: kominfo.co.id
+
 // Whois
 api.tools.whois(domain)
 .then(console.log);

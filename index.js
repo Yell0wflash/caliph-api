@@ -46,6 +46,7 @@ const soundcloud2 = require("./lib/soundcloudsearch");
 const textpro = require("./lib/textpro");
 const sfile = require("./lib/sfile");
 const chordlagu = require("./lib/chordlagu");
+const subfinder = require("./lib/tools/subfinder");
 
 module.exports = {
   version,
@@ -109,6 +110,7 @@ module.exports = {
     expandurl: urlexpand,
     isporn,
     textpro,
+    subfinder
   },
   game: {
     family100,

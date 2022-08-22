@@ -18,7 +18,7 @@ function getFiles (dir, files_) {
 
 async function start() {
   if (opts.path) {
-    dir = path.join(process.cwd(), '..', opts.path)
+    dir = path.join(process.cwd(), opts.path)
     if (!fs.existsSync(dir)) return console.log(`Dir ${dir} not exists!!`);
     let allow_ext = ["js",
       "html",

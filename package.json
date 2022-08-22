@@ -11,7 +11,8 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "minify": "node minify.js"
   },
   "keywords": [
     "caliph-api",

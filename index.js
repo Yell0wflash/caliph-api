@@ -110,7 +110,7 @@ module.exports = {
     expandurl: urlexpand,
     isporn,
     textpro,
-    subfinder
+    subfinder,
   },
   game: {
     family100,

@@ -99,12 +99,8 @@ api.downloader.tiktok2(url)
 api.downloader.soundcloud(url)
 .then(console.log);
 
-// Instagram (Post)
-api.downloader.instagram.post(URL)
-.then(console.log);
-
-// Instagram (Story)
-api.downloader.instagram.story(Username_IG)
+// Instagram Downloader 
+api.downloader.instagram(URL)
 .then(console.log);
 
 // MediaFire

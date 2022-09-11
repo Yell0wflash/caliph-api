@@ -1,9 +1,18 @@
 # caliph-api
+<p align="center">
+<img src="https://avatars.githubusercontent.com/caliphdev?s=400&u=ce99f02d685d58b2bc8b381afa7868481515dbe7&v=4" alt="" width="169" />
+</p>
+<p align="center">
+  <a href="https://github.com/caliphdev"><img title="Author" src="https://img.shields.io/badge/Author-Caliphdev-red.svg?style=for-the-badge&logo=github" /></a>
+  </p>
+<p align="center">
+<a href="//npmjs.com/caliph-api"><img src="https://img.shields.io/npm/dw/caliph-api?color=red&label=Downloads&logo=npm&style=for-the-badge"></a>
+</p>
 
 # Note
 
-ID</br>
-Jika Ada Bug,</br>
+ID<br>
+Jika Ada Bug,<br>
 Silahkan Buat [Issues](https://github.com/caliphdev/caliph-api/issues/new)
 
 EN</br>

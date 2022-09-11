@@ -1,13 +1,13 @@
 # caliph-api
 <p align="center">
-<img src="https://avatars.githubusercontent.com/caliphdev?s=400&u=ce99f02d685d58b2bc8b381afa7868481515dbe7&v=4" alt="" width="169" />
+<a target="_blank" href="https://github.com/caliphdev"><img src="https://avatars.githubusercontent.com/caliphdev?s=400&u=ce99f02d685d58b2bc8b381afa7868481515dbe7&v=4" alt="" width="169" /></a]
 </p>
 <p align="center">
-<a href="https://github.com/caliphdev"><img title="Author" src="https://img.shields.io/badge/Author-Caliphdev-red.svg?style=for-the-badge&logo=github" /></a>
+<a target="_blank" href="https://github.com/caliphdev"><img title="Author" src="https://img.shields.io/badge/Author-Caliphdev-red.svg?style=for-the-badge&logo=github" /></a>
 <br>
-<a href="//npmjs.com/caliph-api"><img src="https://img.shields.io/npm/dw/caliph-api?color=yellow&label=Downloads&logo=npm&style=flat"></a>
+<a target="_blank" href="//npmjs.com/caliph-api"><img src="https://img.shields.io/npm/dw/caliph-api?color=yellow&label=Downloads&logo=npm&style=flat"></a>
 <br>
-<img src="https://img.shields.io/npm/v/caliph-api?color=green&label=version&logo=npm&style=social">
+<a target="_blank" href="https://www.npmjs.com/package/caliph-api?activeTab=versions"><img src="https://img.shields.io/npm/v/caliph-api?color=green&label=version&logo=npm&style=social"></a>
 </p>
 
 # Note

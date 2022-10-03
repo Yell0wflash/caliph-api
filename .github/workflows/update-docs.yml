@@ -3,7 +3,7 @@ name: Update Docs
 on:
   push:
     branches:
-    - master
+    - main
 jobs:
   Build:
     runs-on: ubuntu-latest

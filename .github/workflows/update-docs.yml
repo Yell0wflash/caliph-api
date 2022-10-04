@@ -27,10 +27,10 @@ jobs:
       uses: actions/setup-node@v2.1.1
 
     - name: Install Dependencies
-      run: npm i && npm i -g jsdoc
+      run: npm i -g jsdoc
 
     - name: Build
-      run: jsdoc index.js
+      run: jsdoc -c jsdoc.json
       
     - name: Publish to Pages
       uses: crazy-max/ghaction-github-pages@v2

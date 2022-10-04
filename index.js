@@ -1,3 +1,8 @@
+/**
+ * Caliph API - Caliph API Docs
+ * @module caliph-api
+ */
+
 const { version, author } = require("./package.json");
 const binary = require("./lib/binary");
 const iplookup = require("./lib/iplook");

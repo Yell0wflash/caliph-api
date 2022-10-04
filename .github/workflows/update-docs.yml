@@ -27,15 +27,15 @@ jobs:
       uses: actions/setup-node@v2.1.1
 
     - name: Install Dependencies
-      run: yarn
+      run: npm i && npm i -g jsdoc
 
     - name: Build
-      run: yarn run build:all
+      run: jsdoc index.js
       
     - name: Publish to Pages
       uses: crazy-max/ghaction-github-pages@v2
       with:
         target_branch: gh-pages     
-        build_dir: docs
+        build_dir: out
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

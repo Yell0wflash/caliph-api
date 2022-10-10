@@ -1,9 +1,4 @@
 {
-    "source": {
-        "include": ["lib"],
-        "includePattern": ".js$",
-        "excludePattern": "(node_modules/)"
-    },
     "plugins": ["plugins/markdown"],
     "templates": {
         "cleverLinks": true,

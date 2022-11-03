@@ -64,7 +64,7 @@ module.exports = {
   },
   stress,
   downloader: {
-    youtube,
+    yt: youtube,
     tiktok,
     tiktok2,
     soundcloud,

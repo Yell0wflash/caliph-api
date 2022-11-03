@@ -86,15 +86,15 @@ api.downloader.youtube.ytmp3(url)
 .then(console.log);
 
 // Youtube Video
-api.downloader.youtube.ytmp4(url)
+api.downloader.yt.mp4(url)
 .then(console.log);
 
 // Youtube Play Music
-api.downloader.youtube.ytplay(query)
+api.downloader.yt.play(query)
 .then(console.log);
 
 // YouTube Play Video
-api.downloader.youtube.ytplayvid(query)
+api.downloader.yt.playvid(query)
 .then(console.log);
 
 // Tiktok

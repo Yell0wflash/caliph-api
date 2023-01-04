@@ -82,7 +82,7 @@ console.log(result);
 
 ```js
 // YouTube Music
-api.downloader.youtube.ytmp3(url)
+api.downloader.youtube.mp3(url)
 .then(console.log);
 
 // Youtube Video

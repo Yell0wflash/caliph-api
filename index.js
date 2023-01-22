@@ -1,5 +1,5 @@
 /**
- * Caliph API 
+ * Caliph API
  * Created by @caliphdev
  * @module caliph-api
  */
@@ -74,7 +74,7 @@ module.exports = {
     mediafire,
     zippyshare,
     pindl,
-    tiklydown
+    tiklydown,
   },
   search: {
     happymod,

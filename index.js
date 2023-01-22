@@ -1,5 +1,6 @@
 /**
- * Caliph API - Caliph API Docs
+ * Caliph API 
+ * Created by @caliphdev
  * @module caliph-api
  */
 
@@ -52,6 +53,7 @@ const textpro = require("./lib/textpro");
 const sfile = require("./lib/sfile");
 const chordlagu = require("./lib/chordlagu");
 const subfinder = require("./lib/tools/subfinder");
+const tiklydown = require("./lib/tiklydown");
 
 module.exports = {
   version,
@@ -72,6 +74,7 @@ module.exports = {
     mediafire,
     zippyshare,
     pindl,
+    tiklydown
   },
   search: {
     happymod,

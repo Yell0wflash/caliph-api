@@ -11,10 +11,6 @@
 
 # Note
 
-ID<br>
-Jika Ada Bug,<br>
-Silahkan Buat [Issues](https://github.com/Yell0wflash/caliph-api/issues/new)
-
 EN<br>
 If there are bugs,<br>
 please create [Issues](https://github.com/Yell0wflash/caliph-api/issues/new)
